@@ -53,6 +53,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
+  margin-bottom: 50px;
 }
 
 .my-about {
@@ -79,4 +80,79 @@
   line-height: 27px;
   color: #252525;
   font-weight: 600;
+}
+
+.contact-btn {
+  padding: 13px 24px;
+  text-decoration: none;
+  background-image: linear-gradient(#fba24f, #ff1e1e);
+  border-radius: 45px;
+  display: inline-block;
+  margin-top: 30px;
+  color: white;
+  font-weight: 600;
+  margin-left: 25px;
+}
+
+/*about me end */
+
+/* Recipies start */
+
+.recipi-section {
+  margin-bottom: 50px;
+}
+
+.recipi-description {
+  width: 60%;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+.recipi-description h1 {
+  font-size: 35px;
+  margin: 10px 0px;
+  text-align: center;
+  color: #676767;
+}
+
+.recipi-description p {
+  padding: 4px 10px;
+  text-align: center;
+  color: #252525;
+  line-height: 24px;
+}
+
+.recipi-card {
+  display: flex;
+  width: 100%;
+  margin: auto;
+}
+
+.recipi-card .card {
+  width: 380px;
+  height: 530px;
+  box-shadow: 6px 7px 19px grey;
+  margin: auto;
+  border-radius: 30px;
+}
+
+.recipi-card .card img {
+  width: 90%;
+  display: block;
+  /* text-align: center; */
+  margin: auto;
+  margin-top: 20px;
+}
+
+.card .description-card {
+  margin-top: 35px;
+  padding: 0px 25px;
+}
+
+.card .description-card h1 {
+  line-height: 2;
+}
+
+.card .description-card p {
+  line-height: 28px;
 }
