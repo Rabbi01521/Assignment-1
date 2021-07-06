@@ -36,6 +36,10 @@ a {
   color: #252525;
   font-weight: 600;
 }
+
+.manu ul li a:hover {
+  color: #fba24f;
+}
 /* Navigation part end */
 
 /* header slider start */
