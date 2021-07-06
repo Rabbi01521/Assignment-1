@@ -3,8 +3,47 @@
   margin: 0;
 }
 
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Navigation part start */
+
+.manu-section {
+  display: flex;
+}
+
+.logo {
+  width: 40%;
+  padding: 18px 66px;
+}
+
+.manu {
+  width: 60%;
+}
+
+.manu ul li {
+  display: inline-block;
+  padding: 34px 35px;
+}
+
+.manu ul li a {
+  color: #252525;
+  font-weight: 600;
+}
+/* Navigation part end */
+
+/* header slider start */
 .header {
   display: flex;
+  background-image: url(images/shapes/7.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .header-slider {
@@ -46,6 +85,8 @@
   font-weight: 600;
 }
 
+/* header slider end */
+
 /* About me start */
 .about-me {
   background-image: url(images/shapes/Frame\ 57.jpg);
@@ -54,6 +95,7 @@
   background-size: cover;
   width: 100%;
   margin-bottom: 50px;
+  margin-top: 20px;
 }
 
 .my-about {
@@ -167,6 +209,10 @@
   border-radius: 20px;
   margin-bottom: 100px;
   padding: 90px 0px;
+  background-color: #008eff3b;
+  background-image: url(images/shapes/7.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .counter-section .counter {
@@ -255,6 +301,7 @@
   color: white;
   font-weight: 600;
   border-radius: 10px;
+  box-shadow: 0px 0px 0px gray;
 }
 
 /* contact end */
@@ -262,22 +309,26 @@
 /* footer start */
 
 footer {
-  background-color: rgb(31, 28, 28);
+  background-image: url(images/footer-bg.jpg);
   height: 190px;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 0px 0px 0px gray;
 }
 
 .footer-section h1 {
-  color: white;
+  color: rgb(31, 28, 28);
   text-transform: uppercase;
   text-align: center;
   padding: 18px 0px;
 }
 
 .footer-section p {
-  color: whitesmoke;
+  color: rgb(31, 28, 28);
   text-align: center;
   margin-top: 15px;
   font-size: 15px;
+  font-weight: 600;
 }
 
 /*footer end */
