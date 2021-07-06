@@ -133,7 +133,7 @@ a {
 .contact-btn {
   padding: 13px 24px;
   text-decoration: none;
-  background-image: linear-gradient(#fba24f, #ff1e1e);
+  background-image: linear-gradient(#5bcaff, #0267b7);
   border-radius: 45px;
   display: inline-block;
   margin-top: 30px;
@@ -285,6 +285,10 @@ a {
   border-radius: 12px;
 }
 
+.contact-form input::placeholder {
+  font-weight: 900;
+}
+
 .contact-form textarea {
   display: block;
   margin: auto;
@@ -295,6 +299,11 @@ a {
   border: none;
   border-radius: 12px;
 }
+
+.contact-form textarea::placeholder {
+  font-weight: 900;
+}
+
 .contact-form a {
   display: block;
   margin: auto;
@@ -303,7 +312,7 @@ a {
   margin-top: 50px;
   text-decoration: none;
   padding: 8px 21px;
-  background-image: linear-gradient(rgb(252 141 71), rgb(255 49 37));
+  background-image: linear-gradient(rgb(144 83 222), rgb(36 32 138));
   color: white;
   font-weight: 600;
   border-radius: 10px;
